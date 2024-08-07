@@ -153,7 +153,7 @@
 
             <div id="kaelaFigure1" class="">
               <img
-                class="w-[262px] h-[496px] lg:w-[365px] lg:h-[685px]"
+                class="transition-all ease-in delay-150 duration-150 w-[262px] h-[496px] lg:w-[365px] lg:h-[685px]"
                 src="./docs/img/kaelaModelfullnobg.png"
                 alt=""
               />
@@ -218,11 +218,19 @@
             </div>
             <div class="p-5 pt-3 flex justify-center gap-14">
               <!-- social media -->
-              <a href="https://x.com/kaelakovalskia"
-                ><img class="h-10 w-10" src="./docs/img/twitter.png" alt=""
+              <a class="overflow-hidden" href="https://x.com/kaelakovalskia"
+                ><img
+                  class="hover:scale-125 object-cover transition-all duration-300 delay-150 ease h-10 w-10"
+                  src="./docs/img/twitter.png"
+                  alt=""
               /></a>
-              <a href="https://www.youtube.com/@KaelaKovalskia"
-                ><img class="h-10 w-10" src="./docs/img/youtube.png" alt=""
+              <a
+                class="overflow-hidden"
+                href="https://www.youtube.com/@KaelaKovalskia"
+                ><img
+                  class="hover:scale-105 object-cover transition-all duration-300 delay-150 ease h-10 w-10"
+                  src="./docs/img/youtube.png"
+                  alt=""
               /></a>
             </div>
           </div>
@@ -394,9 +402,9 @@
           <div class="mb-2 lg:max-w-[372px] lg:min-w-[372px]">
             <a href="https://hololive.hololivepro.com/en/music/439/">
               <div class="flex gap-5 lg:flex-wrap">
-                <div>
+                <div class="overflow-hidden">
                   <img
-                    class="h-[93px] w-[93px] min-w-[93px] min-h-[93px] lg:h-[372px] lg:w-[372px]"
+                    class="hover:scale-125 object-cover transition-all duration-300 delay-150 ease h-[93px] w-[93px] min-w-[93px] min-h-[93px] lg:h-[372px] lg:w-[372px]"
                     src="./docs/img/HISTREETTIME.png"
                     alt=""
                   />
@@ -435,9 +443,9 @@
           <div class="mb-2 lg:max-w-[372px] lg:min-w-[372px]">
             <a href="https://hololive.hololivepro.com/en/music/401/">
               <div class="flex gap-5 lg:flex-wrap">
-                <div>
+                <div class="overflow-hidden">
                   <img
-                    class="h-[93px] w-[93px] min-w-[93px] min-h-[93px] lg:h-[372px] lg:w-[372px]"
+                    class="hover:scale-125 object-cover transition-all duration-300 delay-150 ease h-[93px] w-[93px] min-w-[93px] min-h-[93px] lg:h-[372px] lg:w-[372px]"
                     src="./docs/img/saveourhearts.png"
                     alt=""
                   />
@@ -476,9 +484,9 @@
           <div class="mb-2 lg:max-w-[372px] lg:min-w-[372px]">
             <a href="https://hololive.hololivepro.com/en/music/406/">
               <div class="flex gap-5 lg:flex-wrap">
-                <div>
+                <div class="lg:overflow-hidden">
                   <img
-                    class="h-[93px] w-[93px] min-w-[93px] min-h-[93px] lg:h-[372px] lg:w-[372px]"
+                    class="hover:scale-125 lg:object-cover transition-all duration-300 delay-150 ease h-[93px] w-[93px] min-w-[93px] min-h-[93px] lg:h-[372px] lg:w-[372px]"
                     src="./docs/img/CanYouDothehololive2024.png"
                     alt=""
                   />
@@ -519,9 +527,9 @@
           <div class="mb-2 lg:max-w-[372px] lg:min-w-[372px]">
             <a href="https://hololive.hololivepro.com/en/music/342/">
               <div class="flex gap-5 lg:flex-wrap">
-                <div>
+                <div class="overflow-hidden">
                   <img
-                    class="h-[93px] w-[93px] min-w-[93px] min-h-[93px] lg:h-[372px] lg:w-[372px]"
+                    class="hover:scale-125 object-cover transition-all duration-300 delay-150 ease h-[93px] w-[93px] min-w-[93px] min-h-[93px] lg:h-[372px] lg:w-[372px]"
                     src="./docs/img/kaelabackseat_jacket1rev-1.png"
                     alt=""
                   />
@@ -600,14 +608,13 @@
     <footer id="footer">
       <div class="container mx-auto">
         <div class="p-5">
-          <div
-            class="mx-auto p-5 bg-slate-700 text-center rounded-lg lg:w-[744px]"
-          >
-            <a
-              class="text-[#E0CA31] mx-auto text-md"
-              href="https://hololive.hololivepro.com/en"
-              >Hololive Official Website</a
+          <div class="mx-auto text-center">
+            <button
+              onclick="location.href='https://hololive.hololivepro.com/en'"
+              class="p-5 bg-slate-700 text-center rounded-lg lg:w-[744px] hover:-translate-y-1 hover:scale-110 transition-all ease duration-300 delay-150 text-[#E0CA31] mx-auto"
             >
+              Hololive Official Website
+            </button>
           </div>
           <div class="p-5">
             <p class="text-center text-slate-400 text-sm">
