@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kaela Fanmade Website</title>
+    <link rel="stylesheet" href="./docs/css/style.css" />
+  </head>
+  <body style="background-color: #181818">
+    <!-- navbar -->
+
+    <header class="bg-none absolute top-0 left-0 w-full flex items-center z-10">
+      <div class="container mx-auto">
+        <div class="flex items-center justify-between relative">
+          <div class="lg:hidden px-0 py-0">
+            <a href="#hero"
+              ><img
+                src="./docs/img/logoKaela.png"
+                alt=""
+                class="h-[80px] w-[80px]"
+            /></a>
+          </div>
+          <div class="flex items-center px-4 lg:mx-auto">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="block absolut right-4 lg:hidden"
+            >
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"
+              ></span>
+            </button>
+
+            <nav
+              id="nav-menu"
+              class="hidden bg-white lg:bg-[rgb(255,0,0,0)] absolute py-5 lg:py-0 rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:max-w-full lg:shadow-none lg:rounded-none"
+            >
+              <ul class="block lg:flex font-semibold m-0">
+                <li class="group lg:mt-4">
+                  <a
+                    href="#profile"
+                    class="text-base text-black lg:text-white py-2 mx-8 flex group-hover:text-[#E0CA31] font-notosan"
+                    >PROFILE</a
+                  >
+                </li>
+                <li class="group lg:mt-4">
+                  <a
+                    href="#video"
+                    class="text-base text-black lg:text-white py-2 mx-8 flex group-hover:text-[#E0CA31] font-notosan"
+                    >VIDEO</a
+                  >
+                </li>
+                <li id="center-logo" class="hidden group">
+                  <a href="#hero"
+                    ><img
+                      src="./docs/img/logoKaela.png"
+                      alt=""
+                      class="h-[80px] w-[80px]"
+                  /></a>
+                </li>
+                <li class="group lg:mt-4">
+                  <a
+                    href="#music"
+                    class="text-base text-black lg:text-white py-2 mx-8 flex group-hover:text-[#E0CA31] font-notosan"
+                    >MUSIC</a
+                  >
+                </li>
+                <li class="group lg:mt-4">
+                  <a
+                    href="#post"
+                    class="text-base text-black lg:text-white py-2 mx-8 flex group-hover:text-[#E0CA31] font-notosan"
+                    >POST</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- navbar end -->
+
+    <!-- Hero -->
+    <main>
+      <section
+        id="hero"
+        style="
+          background-image: url(./docs/img/kaelaHmmCopy.jpg);
+          background-position: 100% 40%;
+        "
+        class="relative w-full h-screen bg-no-repeat flex justify-center"
+      >
+        <div class="flex items-center lg:ml-[50%]">
+          <div class="text-white text-3xl font-semibold">
+            <h1 class="font-notosan font-bold lg:text-6xl">"Get some help"</h1>
+            <h1 class="font-beau lg:text-[35px] text-center mt-3">
+              <span class="text-[#CC0000]">- Kaela</span>
+              <span class="text-[#E0CA31]">Kovalskia -</span>
+            </h1>
+          </div>
+        </div>
+        <div class="absolute mt-[850px] items-end">
+          <a
+            href="https://x.com/aragik3n/status/1546108651454074886"
+            class="text-[rgb(255,255,255,20%)] font-notosan"
+            >art by @arigak3n</a
+          >
+        </div>
+      </section>
+    </main>
+    <!-- Hero End -->
+
+    <!-- Profile -->
+
+    <section id="profile" class="mt-10 bg-black w-full">
+      <div class="container mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-2">
+          <div class="p-5 flex mx-auto">
+            <ul>
+              <li>
+                <button
+                  id="figure-select1"
+                  type="button"
+                  class="w-[80px] h-[80px] bg-cover rounded-full border-solid border-2 border-[#E0CA31]"
+                  style="background-image: url(./docs/img/selecfix.png)"
+                ></button>
+              </li>
+              <li>
+                <button
+                  id="figure-select2"
+                  type="button"
+                  class="w-[80px] h-[80px] bg-cover rounded-full border-solid border-2 border-[#E0CA31]"
+                  style="background-image: url(./docs/img/selectfigure2.png)"
+                ></button>
+              </li>
+              <li>
+                <button
+                  id="figure-select3"
+                  type="button"
+                  class="w-[80px] h-[80px] bg-cover rounded-full border-solid border-2 border-[#E0CA31]"
+                  style="background-image: url(./docs/img/selectfigure3.png)"
+                ></button>
+              </li>
+            </ul>
+
+            <div id="kaelaFigure1" class="">
+              <img
+                class="w-[262px] h-[496px] lg:w-[365px] lg:h-[685px]"
+                src="./docs/img/kaelaModelfullnobg.png"
+                alt=""
+              />
+            </div>
+            <div id="kaelaFigure2" class="hidden">
+              <img
+                class="w-[262px] h-[496px] lg:w-[365px] lg:h-[685px]"
+                src="./docs/img/kaelaModel2nobg.png"
+                alt=""
+              />
+            </div>
+            <div id="kaelaFigure3" class="hidden">
+              <img
+                class="w-[262px] h-[496px] lg:w-[365px] lg:h-[685px]"
+                src="./docs/img/kaelaModel3nobg.png"
+                alt=""
+              />
+            </div>
+
+            <!-- <img
+                style="
+                  object-position: 46% -1%;
+                  background: rgb(24, 24, 24);
+                  background: linear-gradient(
+                    180deg,
+                    rgba(24, 24, 24, 1) 0%,
+                    rgba(168, 65, 82, 0.3785889355742297) 54%
+                  );
+                "
+                class="w-[200px] h-[200px] object-none"
+                src="./docs/img/kaelaModel3nobg.png"
+                alt="kaelaKimono"
+              /> -->
+          </div>
+          <div class="grid p-5 pt-10 max-h-[400px]">
+            <div><p class="text-white font-notosan">Profile</p></div>
+            <div>
+              <p class="">
+                <span class="text-[#CC0000] font-notosan font-bold text-4xl"
+                  >Kaela</span
+                >
+                <span class="text-[#E0CA31] font-notosan font-bold text-4xl"
+                  >Kovalskia</span
+                >
+              </p>
+              <p class="text-white font-notosan">カエラ・コヴァルスキア</p>
+            </div>
+            <div class="h-32 overflow-y-scroll">
+              <p class="text-white font-notosan">
+                A female Indonesian Virtual YouTuber associated with hololive,
+                debuting as part of its Indonesian (ID) branch third generation
+                of VTubers alongside Vestia Zeta and Kobo Kanaeru.
+              </p>
+              <p class="text-white font-notosan mt-2">
+                After taking over her great blacksmithing teacher's forge, she
+                felt a lack of excitement in her life. So, she decided to be
+                free and depart on a journey to find rare smithing materials,
+                one of which was rumored to be under the building of a certain
+                "idol group" in town. She also loves challenging herself and has
+                a peculiar taste when it comes to foods!
+              </p>
+            </div>
+            <div class="p-5 pt-3 flex justify-center gap-14">
+              <!-- social media -->
+              <a href="https://x.com/kaelakovalskia"
+                ><img class="h-10 w-10" src="./docs/img/twitter.png" alt=""
+              /></a>
+              <a href="https://www.youtube.com/@KaelaKovalskia"
+                ><img class="h-10 w-10" src="./docs/img/youtube.png" alt=""
+              /></a>
+            </div>
+          </div>
+          <div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Profile End -->
+
+    <!-- video -->
+
+    <section id="video" class="mt-10 bg-black w-full">
+      <div class="container mx-auto">
+        <div class="p-5 pb-0">
+          <h2 class="text-white font-notosan">Video</h2>
+        </div>
+        <!-- livestream section -->
+
+        <div id="live-stream"></div>
+        <div
+          id="offline-component"
+          style="display: none"
+          class="lg:h-[372px] lg:flex lg:items-center lg:justify-center"
+        >
+          <h2 class="text-white font-notosan lg:text-6xl text-center">
+            The stream is offline.
+          </h2>
+        </div>
+
+        <!-- livestream section end -->
+        <div class="p-5 lg:h-[300px] overflow-x-scroll flex gap-5">
+          <!-- playlist 1 -->
+          <div class="mb-2 max-w-[500px] min-w-[400px]">
+            <iframe
+              width="374"
+              height="250"
+              src="https://www.youtube.com/embed/?listType=playlist&list=PLH6DjTF_aCGgmefPXhPn_jbiuT5sxCv8A"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <!-- Playlist 1 end -->
+          <!-- playlist 2 -->
+          <div class="mb-2 max-w-[500px] min-w-[400px]">
+            <iframe
+              width="374"
+              height="250"
+              src="https://www.youtube.com/embed/?listType=playlist&list=PLH6DjTF_aCGg0q7Y53KOqN5YnF41pkJ8E"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <!-- Playlist 2 end -->
+          <!-- playlist 3 -->
+          <div class="mb-2 max-w-[500px] min-w-[400px]">
+            <iframe
+              width="374"
+              height="250"
+              src="https://www.youtube.com/embed/?listType=playlist&list=PLH6DjTF_aCGhSMpwY0ZMhQQrT2xSE6tFr"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <!-- Playlist 3 end -->
+          <!-- playlist 4 -->
+          <div class="mb-2 max-w-[500px] min-w-[400px]">
+            <iframe
+              width="374"
+              height="250"
+              src="https://www.youtube.com/embed/?listType=playlist&list=PLH6DjTF_aCGhkOoNSGgUDT5mFqAYQWC3R"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <!-- Playlist 4 end -->
+          <!-- playlist 5 -->
+          <div class="mb-2 max-w-[500px] min-w-[400px]">
+            <iframe
+              width="374"
+              height="250"
+              src="https://www.youtube.com/embed/?listType=playlist&list=PLH6DjTF_aCGjhddtGEEr7E1BApvg0EpIM"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <!-- Playlist 5 end -->
+          <!-- playlist 6 -->
+          <div class="mb-2 max-w-[500px] min-w-[400px]">
+            <iframe
+              width="374"
+              height="250"
+              src="https://www.youtube.com/embed/?listType=playlist&list=PLH6DjTF_aCGjqSHxFhV0RXOxbU0_QXMUa&pp=iAQB"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <!-- Playlist 6 end -->
+          <!-- playlist 7 -->
+          <div class="mb-2 max-w-[500px] min-w-[400px]">
+            <iframe
+              width="374"
+              height="250"
+              src="https://www.youtube.com/embed/?listType=playlist&list=PLH6DjTF_aCGjzA3c9WJH1DoRN8oBLxVKz"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <!-- Playlist 7 end -->
+          <!-- playlist 8 -->
+          <div class="mb-2 max-w-[500px] min-w-[400px]">
+            <iframe
+              width="374"
+              height="250"
+              src="https://www.youtube.com/embed/?listType=playlist&list=PLH6DjTF_aCGjBHg6zy0yXUqqN-JuNopb3"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <!-- Playlist 8 end -->
+          <!-- playlist 9 -->
+          <div class="mb-2 max-w-[500px] min-w-[400px]">
+            <iframe
+              width="374"
+              height="250"
+              src="https://www.youtube.com/embed/?listType=playlist&list=PLH6DjTF_aCGhFb0LtrlHWciUvhYESJBm5"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <!-- Playlist 9 end -->
+          <!-- playlist 10 -->
+          <div class="mb-2 max-w-[500px] min-w-[400px]">
+            <iframe
+              width="374"
+              height="250"
+              src="https://www.youtube.com/embed/?listType=playlist&list=PLH6DjTF_aCGgnluGo2N9IdUGaRxN84_GS"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <!-- Playlist 10 end -->
+          <!-- playlist 11 -->
+          <div class="mb-2 max-w-[500px] min-w-[400px]">
+            <iframe
+              width="374"
+              height="250"
+              src="https://www.youtube.com/embed/?listType=playlist&list=PLH6DjTF_aCGhwqT9yn4zAV0ZaYnRdWhjJ"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <!-- Playlist 11 end -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Video End -->
+
+    <!-- Music -->
+
+    <section id="music" class="mt-10 bg-black w-full">
+      <div class="container mx-auto">
+        <div class="p-5 pb-0">
+          <h2 class="text-white font-notosan">Music</h2>
+        </div>
+        <div class="p-5 lg:h-[650px] lg:overflow-x-scroll lg:flex lg:gap-5">
+          <!-- music 1 -->
+          <div class="mb-2 lg:max-w-[372px] lg:min-w-[372px]">
+            <a href="https://hololive.hololivepro.com/en/music/439/">
+              <div class="flex gap-5 lg:flex-wrap">
+                <div>
+                  <img
+                    class="h-[93px] w-[93px] min-w-[93px] min-h-[93px] lg:h-[372px] lg:w-[372px]"
+                    src="./docs/img/HISTREETTIME.png"
+                    alt=""
+                  />
+                </div>
+                <div class="">
+                  <!-- info -->
+                  <div class="flex gap-1">
+                    <div>
+                      <p
+                        class="text-white font-notosan p-1 text-xs lg:text-[21px] border-white border-solid border-2 rounded-3xl"
+                      >
+                        Single
+                      </p>
+                    </div>
+                    <div>
+                      <p
+                        class="text-white font-notosan p-1 text-xs lg:[21px] border-white border-solid border-2 rounded-3xl"
+                      >
+                        Original
+                      </p>
+                    </div>
+                  </div>
+                  <div class="mt-1 mb-1">
+                    <h2 class="text-white lg:text-[30px]">HI:STREET TIME</h2>
+                  </div>
+                  <div>
+                    <p class="text-white text-xs lg:text-[15px]">2024/07/02</p>
+                  </div>
+                  <!-- info end -->
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- music 1 end -->
+          <!-- music 2 -->
+          <div class="mb-2 lg:max-w-[372px] lg:min-w-[372px]">
+            <a href="https://hololive.hololivepro.com/en/music/401/">
+              <div class="flex gap-5 lg:flex-wrap">
+                <div>
+                  <img
+                    class="h-[93px] w-[93px] min-w-[93px] min-h-[93px] lg:h-[372px] lg:w-[372px]"
+                    src="./docs/img/saveourhearts.png"
+                    alt=""
+                  />
+                </div>
+                <div class="">
+                  <!-- info -->
+                  <div class="flex gap-1">
+                    <div>
+                      <p
+                        class="text-white font-notosan p-1 text-xs lg:text-[21px] border-white border-solid border-2 rounded-3xl"
+                      >
+                        Single
+                      </p>
+                    </div>
+                    <div>
+                      <p
+                        class="text-white font-notosan p-1 text-xs lg:text-[21px] border-white border-solid border-2 rounded-3xl"
+                      >
+                        Original
+                      </p>
+                    </div>
+                  </div>
+                  <div class="mt-1 mb-1">
+                    <h2 class="text-white lg:text-[30px]">save our hearts</h2>
+                  </div>
+                  <div>
+                    <p class="text-white text-xs lg:text-[15px]">2024/03/29</p>
+                  </div>
+                  <!-- info end -->
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- music 2 end -->
+          <!-- music 3 -->
+          <div class="mb-2 lg:max-w-[372px] lg:min-w-[372px]">
+            <a href="https://hololive.hololivepro.com/en/music/406/">
+              <div class="flex gap-5 lg:flex-wrap">
+                <div>
+                  <img
+                    class="h-[93px] w-[93px] min-w-[93px] min-h-[93px] lg:h-[372px] lg:w-[372px]"
+                    src="./docs/img/CanYouDothehololive2024.png"
+                    alt=""
+                  />
+                </div>
+                <div class="">
+                  <!-- info -->
+                  <div class="flex gap-1">
+                    <div>
+                      <p
+                        class="text-white font-notosan p-1 text-xs lg:text-[21px] border-white border-solid border-2 rounded-3xl"
+                      >
+                        Single
+                      </p>
+                    </div>
+                    <div>
+                      <p
+                        class="text-white font-notosan p-1 text-xs lg:text-[21px] border-white border-solid border-2 rounded-3xl"
+                      >
+                        Original
+                      </p>
+                    </div>
+                  </div>
+                  <div class="mt-1 mb-1">
+                    <h2 class="text-white lg:text-[30px]">
+                      Can You Do the hololive? hololive SUPER EXPO 2024 ver.
+                    </h2>
+                  </div>
+                  <div>
+                    <p class="text-white text-xs lg:text-[15px]">2024/03/15</p>
+                  </div>
+                  <!-- info end -->
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- music 3 end -->
+          <!-- music 4 -->
+          <div class="mb-2 lg:max-w-[372px] lg:min-w-[372px]">
+            <a href="https://hololive.hololivepro.com/en/music/342/">
+              <div class="flex gap-5 lg:flex-wrap">
+                <div>
+                  <img
+                    class="h-[93px] w-[93px] min-w-[93px] min-h-[93px] lg:h-[372px] lg:w-[372px]"
+                    src="./docs/img/kaelabackseat_jacket1rev-1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="">
+                  <!-- info -->
+                  <div class="flex gap-1">
+                    <div>
+                      <p
+                        class="text-white font-notosan p-1 text-xs lg:text-[21px] border-white border-solid border-2 rounded-3xl"
+                      >
+                        Single
+                      </p>
+                    </div>
+                    <div>
+                      <p
+                        class="text-white font-notosan p-1 text-xs lg:text-[21px] border-white border-solid border-2 rounded-3xl"
+                      >
+                        Original
+                      </p>
+                    </div>
+                  </div>
+                  <div class="mt-1 mb-1">
+                    <h2 class="text-white lg:text-[30px]">backseat</h2>
+                  </div>
+                  <div>
+                    <p class="text-white text-xs lg:text-[30px]">2023/10/21</p>
+                  </div>
+                  <!-- info end -->
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- music 4 end -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Music End -->
+
+    <section id="post" class="mt-10 bg-black w-full">
+      <div class="container mx-auto h-[800px]">
+        <div class="p-5">
+          <h2 class="text-white font-notosan">Post</h2>
+        </div>
+        <div class="flex items-center justify-center">
+          <div id="post-twitter-lg" class="hidden">
+            <a
+              class="twitter-timeline"
+              data-width="744"
+              data-height="650"
+              data-theme="dark"
+              href="https://twitter.com/kaelakovalskia?ref_src=twsrc%5Etfw"
+              >Tweets by kaelakovalskia</a
+            >
+          </div>
+          <div id="post-twitter-sm" class="">
+            <a
+              class="twitter-timeline mx-auto"
+              data-width="372"
+              data-height="650"
+              data-theme="dark"
+              href="https://twitter.com/kaelakovalskia?ref_src=twsrc%5Etfw"
+              >Tweets by kaelakovalskia</a
+            >
+          </div>
+          <script
+            async
+            src="https://platform.twitter.com/widgets.js"
+            charset="utf-8"
+          ></script>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="container mx-auto">
+        <div class="p-5">
+          <div
+            class="mx-auto p-5 bg-slate-700 text-center rounded-lg lg:w-[744px]"
+          >
+            <a
+              class="text-[#E0CA31] mx-auto text-md"
+              href="https://hololive.hololivepro.com/en"
+              >Hololive Official Website</a
+            >
+          </div>
+          <div class="p-5">
+            <p class="text-center text-slate-400 text-sm">
+              Built with ❤💛 by Lieh
+            </p>
+            <p class="text-center text-slate-400 text-sm">
+              All copyright reserved to Cover Corp, Hololive Production and
+              Hololive Indonesia.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./docs/dist/script.js"></script>
+    <script src="./docs/dist/livestream.js"></script>
+  </body>
+</html>
