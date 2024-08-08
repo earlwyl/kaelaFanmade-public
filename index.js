@@ -9,8 +9,8 @@ const YOUTUBE_API_KEY = process.env.YOUTUBE_API_KEY;
 const YOUTUBE_CHANNEL_ID = process.env.YOUTUBE_CHANNEL_ID;
 
 // Serve static files from the docs directory
-app.use(express.static(path.join(__dirname, "../")));
-app.use(express.static(path.join(__dirname, "../docs")));
+app.use(express.static(path.join(__dirname, "./")));
+app.use(express.static(path.join(__dirname, "./docs")));
 
 // API endpoints
 app.get("/api/youtube", async (req, res) => {
@@ -35,7 +35,7 @@ app.get("/api/youtube", async (req, res) => {
 
 // Serve index.html for all other routes
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "../index.html"));
+  res.sendFile(path.join(__dirname, "./docs/index.html"));
 });
 
 app.listen(port, () => {
